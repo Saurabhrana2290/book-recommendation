@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  border: 2px solid black;
+}
+
+.header img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  display: inline;
+  margin-left:3rem ;
+  
+}
+
+.header h1 {
+  top: 18px;
+  left: 10px;
+  display: inline;
+}
+
+.subButton{
+  margin: 1rem;
+}
+#btn1{
+  margin: 0.5rem;
+  font-size: 18px;
+}
+#btn2{
+  margin: 0.5rem;
+  font-size: 18px;
+}
+#btn3{
+  margin: 0.5rem;
+  font-size: 18px;
+}
+
+.nonBullets{
+  list-style: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#book1{
+  border: 2px solid black;
+
+}
+#book2{
+  border: 2px solid black;
+}

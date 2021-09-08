@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import book from './book.jpg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <h1> 📚 Goodbooks!</h1>
+
+      <p>Checkout my favourite books. Select a genre to get started</p>
+
+      <div className="subButton">
+        <button id="btn1">Javascript</button>
+        <button id="btn2">fiction</button>
+        <button id="btn3">business</button>
+      </div>
+
+      <hr />
+
+      <div className="bookNames">
+        <ul className="books">
+          <li id="book1" className="nonBullets"></li>
+          <li id="book2" className="nonBullets"></li>
+        </ul>
+      </div>
+
     </div>
   );
 }
