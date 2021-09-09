@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -36,34 +36,70 @@
     transform: rotate(360deg);
   }
 }
-
-
+:root{
+  --primary-color:#99e5d5;
+  --seconday-color:#faef53;
+}
+body{
+  background-color: var(--primary-color);
+}
+h1{
+  font-size: 60px;
+  margin-left: 3rem;
+}
+p{
+  font-size: 25px;
+  margin-left: 3rem;
+}
 .subButton{
-  margin: 1rem;
+  margin-left: 3rem;
 }
 #btn1{
   margin: 0.5rem;
-  font-size: 18px;
+  font-size: 25px;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background-color: var(--seconday-color);
+  cursor: pointer;
 }
 #btn2{
   margin: 0.5rem;
-  font-size: 18px;
+  font-size: 25px;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background-color: var(--seconday-color);
+  cursor: pointer;
 }
 #btn3{
   margin: 0.5rem;
-  font-size: 18px;
+  font-size: 25px;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  background-color: var(--seconday-color);
+  cursor: pointer;
 }
 
 .nonBullets{
   list-style: none;
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 1rem;
 }
 
 #book1{
-  border: 2px solid black;
-
+  margin-top: 4rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  background-color: #f77777;
+  border-radius: 1rem;
 }
 #book2{
-  border: 2px solid black;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  border-radius: 1rem;
+  background-color: #f77777;
 }
