@@ -4,16 +4,16 @@ function App() {
   var [book1Name,setBook1Name] = useState("");
   var [book2Name,setBook2Name] = useState("");
   function clickHandlerBtn1(){
-    setBook1Name("Let us code");
-    setBook2Name("Code for me");
+    setBook1Name("Eloquent JavaScript");
+    setBook2Name("The Good Parts");
   }
   function clickHandlerBtn2(){
-    setBook1Name("Abc");
-    setBook2Name("Shakes");
+    setBook1Name("Let Us C");
+    setBook2Name("C Programming Absolute Beginner’s Guide");
   }
   function clickHandlerBtn3(){
-    setBook1Name("flintoff");
-    setBook2Name("Rd");
+    setBook1Name("Beginning Programming with Java For Dummies");
+    setBook2Name("Head First Java: A Brain-Friendly Guide");
   }
   return (
     <div className="App">
@@ -21,8 +21,8 @@ function App() {
       <p>Checkout my favourite books. Select a genre to get started</p>
       <div className="subButton">
         <button id="btn1" onClick={clickHandlerBtn1}>Javascript</button>
-        <button id="btn2" onClick={clickHandlerBtn2}>fiction</button>
-        <button id="btn3" onClick={clickHandlerBtn3}>business</button>
+        <button id="btn2" onClick={clickHandlerBtn2}>C Language</button>
+        <button id="btn3" onClick={clickHandlerBtn3}>Java</button>
       </div>
       <hr />
       <div className="bookNames">
