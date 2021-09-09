@@ -37,24 +37,6 @@
   }
 }
 
-.header{
-  border: 2px solid black;
-}
-
-.header img {
-  float: left;
-  width: 80px;
-  height: 80px;
-  display: inline;
-  margin-left:3rem ;
-  
-}
-
-.header h1 {
-  top: 18px;
-  left: 10px;
-  display: inline;
-}
 
 .subButton{
   margin: 1rem;
